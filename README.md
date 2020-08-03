@@ -12,7 +12,13 @@ Se va a necesitar toda la informacion necesaria para garantiar el bueno uso de p
 
 ## Como clonar
 
-Simplemente copiar la dirección que ofrece el repositorio en la cuenta de github personal
-Y agregar en el terminal con el comando 'git clone' y luego espera la copia dentro del equipo.
+Basta digitar git clone e acessar o repositório, copiar o link para Clonar e colar nesse mesmo comando. Ou, simplesmente, digitar:
+
+$ git clone https://github.com/Jesus758/modulo2-t09DH-html-css
+
+Por fim, acesse a pasta do repositório e abra o VS Code dentro da mesma. Basta utilizar esses dois comandos a seguir:
+
+$ cd modulo2-t09DH-html-css
+$ code .
 
 
