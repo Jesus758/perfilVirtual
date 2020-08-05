@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+}
+body {
+    padding: 15 px;
+}
+section {
+    padding: 16px;
+    border: 1px solid brown;
+    border-radius: 8px; 
+}
+section.destaque{
+    background-color: darkgray;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+}
