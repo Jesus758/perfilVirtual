@@ -1,7 +1,9 @@
 * {
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 4px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     padding: 15 px;
@@ -12,8 +14,41 @@ section {
     border-radius: 8px; 
 }
 section.destaque{
-    background-color: darkgray;
+    background-color: white;
 }
 h1, h2, h3, h4, h5, h6 {
     color: crimson;
+}
+[data-func="foto"] {
+    border-radius: 50%;
+    transition: all 0.8s ease-in-out;
+    filter: invert(1);
+}
+[data-func="foto"]:hover {
+    transform: rotate(180deg);
+}
+[href="#top"] {
+    color: white;
+    background: red;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+    position: fixed;
+    bottom:12px;
+    right: 12px;
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+        }
+/* el uso de los [] permite identificar un selector especifico para una propiedad dentro de un codigo HTML */
+[href="#top"]:hover {
+    background: white;
+    border-color: red;
+    color: red;
+    scroll-behavior: smooth;
+   }
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
