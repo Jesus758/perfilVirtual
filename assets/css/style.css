@@ -1,10 +1,11 @@
 * {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 0;
     padding: 4px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body {
     padding: 15 px;
 }
@@ -46,9 +47,46 @@ h1, h2, h3, h4, h5, h6 {
     color: red;
     scroll-behavior: smooth;
    }
-
 main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    max-width: auto;
+    display: inline-flex;
+    align-content: center;
+    }
+.bloco {
+    display: inline-flex;
+    flex-direction: column; 
+    align-content: center;
+    }
+    .carousel-item {
+        height: 400px;
+        background-color: brown;
+        /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxOoDXGzos-Se65rditXXWhFaK-74CmaZ29w&usqp=CAU); */
+                    }
+/*[class="carousel slide"] {
+    width:auto ;
+    height: 400px;
+        } 
+
+[class="carousel-item 1 active"] {
+        background-color: royalblue;
+        }
+[class="carousel-item 2"] {
+    background-color: red;
 }
+[class="carousel-item 3"] {
+         background-color: green;
+                } */ 
+[class="d-block w-100"] {
+    width:350px ;
+    height: 200px;
+    align-items: center;
+} 
+
+@media screen and (min-width: 450px) {
+    * {
+        background-color: rgb(223, 231, 228);
+        margin: 0;
+        padding: 4px;
+        scroll-behavior: smooth;}
+     }
+

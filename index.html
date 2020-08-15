@@ -31,16 +31,56 @@
             background-color: rgba(223, 222, 222, 0.877);
                                             }
     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
    <header>
-    <img  data-func="foto" src="./assets/img/photo1.jpg" alt="Candidato más calificado para el trabajo" width="150px" heigth="150px">
-    <h2>JESUS ALEJANDRO ARIAS</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">JAAG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experiencia">EXPERIENCIA</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Skills" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SKILLS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#Formacion" tabindex="-1" aria-disabled="true">FORMACION</a>
+            </li>
+          </ul>
+          /* boton de search */
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+<br>
+<div>
+    <img  data-func="foto" src="./assets/img/photo1.jpg" alt="Perfil Profesional del Candidato" width="150px" heigth="150px">
+    <h2><b>JESUS ALEJANDRO ARIAS</b>></h2>
     <h3>CARGO PRETENDIDO</h3>
     <h4 id="pos1">Programador Web. Junior</h4>
     <h4 id="pos1">Gestor de Sustentabilidad. Senior</h4>
-    <h4 id="pos1">Gestor de Seguridad en el Trabajo.Senior</h4>   
+    <h4 id="pos1">Gestor de Seguridad en el Trabajo.Senior</h4>  
+</div> 
         <ul type="none">    
         <li>Jesus Alejandro Arias</li>
         <li><a href="tel:+5511972434963">+ 55 11 97243 4963</a>
@@ -60,8 +100,22 @@
         </ul>
     </header>
     <hr>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <h1>PRIMER SLIDE</h1>
+          </div>         
+          <div class="carousel-item">
+          <h1>SEGUNDO SLIDE</h1>
+          </div>
+          <div class="carousel-item">
+          <h1>TERCER SLIDE</h1>
+            
+        </div>
+      </div>
+    <hr>
     <main>
-        <section>
+        <section class="bloco">
             <h2>EXPERIENCIA PROFESIONAL</h2>
             <ul>
                 <li><b>Entrenador Virtual | RST Global /Solutions Latin America</b></li>
@@ -72,7 +126,8 @@
                     </ol>
             </ul>
         </section>
-        <section>
+
+        <section class="bloco">
             <ul>
                 <li><b>Analista de Ventas Bilingue | Atento - Brasil</b></li>
             <ol>
@@ -82,7 +137,8 @@
                 </ol>
             </ul>
         </section>
-        <section>
+
+        <section class="bloco">
             <ul>
                 <li><b>Ingeniero de Campo | PDVSA - Venezuela</b></li>
             <ol>
@@ -104,8 +160,8 @@
 
 
         </section>
-        <hr>
-<section>
+
+    <section class="bloco">
     <h2>SKILLS</h2>
     <section class="destaque">
         <h3 id="pos1"><b><i>SOFT SKILLS</i></b></h3>
@@ -129,10 +185,9 @@
     <li>Preparación de Informes de Resultadospara Indicadores de Gestión</li>
     </ul>
     </section>
-    
+    </section>
 <hr>
-</section>
-<section>
+    <section class="bloco">
     <h2>FORMACION</h2>
     
     <table id="t01">
@@ -181,56 +236,41 @@
         <td>UNIVERSIDAD DE CARABOBO</td>
      </tr>
 </table>
-</section>
-<hr>
-<section>
+        </section>
+
+        <section class="bloco">
     <h2>Vamos a hablar un poco!</h2>
     <p>Para contactarme, puedes hacerlo por correo, Linkedin, whatsapp o simplemente llena el formulario y en lo breve, me comunicare contigo</p>
-    <form action="" method="post">
-    <table id="t02">
-        <tr>
-            <td style ="font-family:Arial, Helvetica, sans-serif;"><label for="">Empresa Interesada</label><br>
-                <input type="text" id=" " name=" " placeholder="KPMG"></td>
-            <td style ="font-family:Arial, Helvetica, sans-serif;"><label for="">Años en el mercado</label><br>
-                <input type="number"></td>
-            <td style ="font-family:Arial, Helvetica, sans-serif;">
-                <h5 style ="font-family:Arial, Helvetica, sans-serif">Sexo</h5>
-                  <input style="margin-left: 15px;" type="radio" id="male" name="gender" value="male">
-                  <label for="male">Male</label><br>
-                  <input  style="margin-left: 15px;" type="radio" id="female" name="gender" value="female">
-                  <label>Female</label><br>
-                  <input style="margin-left: 15px;" type="radio" id="other" name="gender" value="other">
-                  <label for="other">Other</label>
-                </td>
-        </tr>
-        <tr>
-            <td style ="font-family:Arial, Helvetica, sans-serif";><div>
-                <h5 style ="font-family:Arial, Helvetica, sans-serif";>Tipo de Contratacion</h5>
-                <select>
-                <label for=" ">Tipo de Contratacion</label><br>
-                <option id="" value="">CLT</option><br>
-                <option id="" value="">Jovem Aprendiz</option><br>
-                <option id="" value="">PJ</option><br> 
-                </select><br>
-                </div></td>
-            <td style = font-family:Arial, Helvetica, sans-serif><label for="">Fecha prevista de inicio</label><br>
-                <input type="date"></td>
-            <td style = font-family:Arial, Helvetica, sans-serif><label for=" ">Suba su CV</label><br>
-                <input type="file"></td>
-         </tr>
-         </table>
-  <br>
-  <br> 
-<label for="">Deje aqui sus elogios</label><br>
-<textarea name=" " id=" " cols="30" rows="10"></textarea>
-<br>
-<button type="reset">Limpiar</button> | <button type="submit">Enviar</button><br>
-    </form>
-    </section>
-</main>
+   
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+        </section>
+    </main>
+
 <footer>
 <p>Jesus Alejandro Arias @ 2020© |  <a href="mailto:jesusalejandro225@hotmail.com?Subject=Vag%20de%20Programador%20Junior&=Ola,%20gostei%20do%20seu%20perfil!"> Contatame via Email</a> |<a href="https://api.whatsapp.com/send?phone=5511972434963&fbclid=IwAR2smO3lVrIl71V4IS6mkf0RWdFasIS2Ini-gyvTt7nam2ziQqyL69g9Jfs">Manda un ZAP</a>   </p>
 </footer>
 <a href="#top">Ir para ao topo</a>
+
+<!-- necesario incluir este codigo -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
