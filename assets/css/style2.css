@@ -73,17 +73,23 @@ img.comparacion {
     color: red;
     scroll-behavior: smooth;
 }
-form{
+
+
+form {
     margin-left: 30px;
-    max-width: 600px;
-    align-content: center;
+    max-width: auto;
+    align-items: flex-start;
 }
 [id="muestra"] {
     border-radius: 50%;
     margin-top: 30px;
     margin-left:100px;
-    height: 400px;
+    height: auto;
     width: auto;
     align-self : center;
 }
-
+@media screen and (min-width:450px)
+{
+    [id="muestra"] {
+        
+}
