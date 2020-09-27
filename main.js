@@ -8,10 +8,13 @@ var vacio = document.querySelector('#parallenar');
 var btnProyecto = document.querySelector('#proyectos');
 var btnsobremi = document.querySelector('#btn101');
 var proyectos = document.querySelector('#containerproyectos');
+var Expert = document.querySelector('#experiencia');
+var btnExpert = document.querySelector('#btn103');
 
 
 btnsobremi.addEventListener('click', llenar );
 btnProyecto.addEventListener('click', llenar2 );
+btnExpert.addEventListener('click' , llenar3 );
 
 function llenar() {
         vacio.innerHTML = " ";
@@ -20,11 +23,19 @@ function llenar() {
 }
 
 function llenar2() {
-        vacio.removeChild(yosoy);
+        vacio.innerHTML = " "; 
         vacio.appendChild(proyectos);
         proyectos.classList.remove('d-none');
         yosoy.classList.add('d-none');
 }
+
+function llenar3() {
+        vacio.innerHTML = " ";
+        vacio.appendChild(Expert); 
+        Expert.classList.remove('d-none');
+}
+
+
    
 
 
