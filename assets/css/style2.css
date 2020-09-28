@@ -1,0 +1,95 @@
+body {
+    background: rgb(196, 191, 191);
+}
+[class="font-italic font-weight-lighter"] {
+    text-align: center;
+}
+[class="btn btn-outline-success my-2 my-sm-0"] {
+    background-color: coral;
+}
+.carousel-item {
+    height: auto;
+} 
+.container-1 {
+    text-decoration-color: red;
+    padding: 45px;
+    margin: 35px;
+    align-items: center;
+}
+
+[class="blockquote text-center"] {
+    padding: 45px;
+    margin: 35px;
+}
+footer {
+    padding: 25px;
+    height: 44px;
+} 
+nav {
+    height: 56px;}
+
+main{
+    margin-top: 56px;
+    min-height: calc(100vh-100px);
+   
+}
+/* .container, .row, .col {
+    border: 0.5px solid black;
+
+}*/ 
+
+[class="font-weight-bold"] {
+    padding: 35px;
+}
+h4 {
+    padding: 5px;
+    padding-bottom: 10px;
+} 
+img.comparacion {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.col {
+    height: 500px;
+    background: black;
+}
+[href="#Top"] {
+    color: white;
+    background: red;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+    position: fixed;
+    bottom:12px;
+    right: 12px;
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+}
+[href="#Top"]:hover {
+    background: white;
+    border-color: red;
+    color: red;
+    scroll-behavior: smooth;
+}
+
+
+form {
+    margin-left: 30px;
+    max-width: auto;
+    align-items: flex-start;
+}
+[id="muestra"] {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left:100px;
+    height: auto;
+    width: auto;
+    align-self : center;
+}
+@media screen and (min-width:450px)
+{
+    [id="muestra"] {
+        
+}

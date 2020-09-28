@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "beautify.onsave": true,
+    "editor.renderIndentGuides": true,
+}
