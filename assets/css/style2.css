@@ -1,24 +1,27 @@
+/*Inicio de la pagina*/
 body {
     background: rgb(196, 191, 191);
 }
-
 /* nav {
     height: 75px;}
 */
-
 main{
     /*margin-top: 56px;*/
    /* min-height: calc(100vh-100px);*/
     padding-right: 15px;
-   
 }
-
+/*Parrafos de toda la pagina*/
 p {
-    margin: 55px;
-    padding: 20px;
+    margin: 15px;
+    padding: 10px;
     text-align: justify;
-
 }
+
+h4 {
+    padding: 5px;
+    padding-bottom: 10px;
+} 
+/*Barra de navegación*/
 .nav-link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -31,26 +34,100 @@ p {
     text-align: center;
     padding: auto;
 }
-
+/*Carrusel*/
 #img1 {
     max-width: 100%;
     height: 10px;
 }
 
+.carousel-item {
+    height: auto;
+} 
+
+.container-1 {
+    text-decoration-color: red;
+    padding: 45px;
+    margin: 35px;
+    align-items: center;
+}
+
+/*de mi bloque de pbjetivo personal*/
+[class="font-italic font-weight-lighter"] {
+    text-align: center;
+}
+
+
+/*tarjeta principal lateral*/
 #img2 {
     padding: 30px;
 }
-#container-2 {
-    display: fixed;
+#btn-1, #proyectos {
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+}
+/*#btn11 {
+    padding-bottom: 2.5px;
+    margin-left: 20px;
+}*/ 
+
+#btns, button {
+    align-items: center;
+}
+
+/*Mi descripcion*/
+
+#container-3 {
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgb(167, 164, 164);
 }
 .flexContainer{
     display: flex; 
     flex-direction: row;
     width: 600px; 
     height: auto; 
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto;
+}
+#cargo1 {
+    border: 1px solid black; 
+    border-radius: 10px;
+    padding: 10px;
+    }
+#container-3 h5 {
+    text-align: left;
+    padding: 10px;
+    margin: 30px;
 }
 
+/*aqui sirve para toda esa clase*/
+.card-img-top {
+        width: 200px;
+        height: 200px;
+    }
+
+.card-title {
+        text-align: center;
+    }
+    
+.card-text {
+            padding: 3px;
+    }
+.card-text li {
+         padding-bottom: 10px;
+     }
+/*Bloque de proyectos*/
+#containerproyectos .card-deck .card{
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+#containerproyectos p {
+    padding: 5px;
+}
+
+/*Bloque de Experiencias*/
 #experiencia {
     display: flex; 
     flex-direction: column;
@@ -58,29 +135,67 @@ p {
     height: auto; 
     padding: auto;
     justify-content: space-between;
-    
+   
 }
-    
-#cargo1 {
-    border: 1px solid black; 
-    border-radius: 10px;
-    padding: 10px;
-    }
+#experiencia .card {
+    box-shadow: 5px 5px 5px 5px rgb(146, 145, 145);
+    height: 250px;
+}
 
-.card-img {
-    height: 440px;
+#experiencia .card-img {
+    height: 200px;
 }
+    
+/*Mis Skills*/
 .flexContainer3{
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
        }
+#skills #SSkills, #HSkills {
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
 
-#UC {
+[class="font-weight-bold"] {
+        padding: 35px;
+    }
+/*del bloque de Estudios Universitarios*/
+#universidad {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px grey;
+}
+
+#Extensiones {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px grey;
+}
+
+#cursosenbrasil {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px grey;
+}
+
+#UC  {
     display: flex; 
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    }
+
+.d-flex {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #UC p {
@@ -105,11 +220,10 @@ p {
     
 }
 
-#ext p {
+#Extensiones .d-flex p {
     width: 300px;
     margin: 10px;
     text-align: center;
-
 }
 
 #ext img {
@@ -122,10 +236,31 @@ p {
 
 }
 
+#Extensiones {
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap;
+}
+#ext {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+
+}
+
+#Extensiones .d-flex {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #brasil {
     display: flex; 
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: auto;
 }
 
 #brasil img {
@@ -140,29 +275,67 @@ p {
     width: 300px;
     margin: 10px;
     text-align: center;
-
  }
 
+ /*del bloque de marketing*/
  #marketing, #voluntariado {
     display: flex; 
     flex-direction: row;
     flex-wrap: nowrap;
  }
 
+/* bloque del voluntariado*/
 
+#voluntariado {
+    max-width: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 30px;
+    
+}
+#espanhol, #camaay, #ilzb {
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 15px;
+    max-width: 300px;
+}
+#voluntariado img {
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+}
 
+#voluntariado div {
+    margin: 10px;
+    }
 
+#voluntariado div img {
+    
+}
 
+/* Aqui va el bloque de Markting */
 
+#marketing {
+    display: flex;
+    flex-direction: row;
+}
 
+#marketing div {
+    margin: 10px;
+    padding: 5px;
+    border: 0.5px solid black;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+/*Del bloque del footer*/
+ /* de aqui para abajo no es este proyecto actual */
+ footer {
+    
+    height: auto;
+} 
 
-
-
-
-
-
-/* de aqui para abajo no es este proyecto actual */
-#af {
+ #af {
     display: inline;
     flex-direction: column;
     max-width: auto;
@@ -171,117 +344,112 @@ p {
     align-content: center;
 }
 
+@media screen and (max-width: 580px) {
+#Bloco-MQ {
+    padding-top: 100px;
+}
 
-[class="font-italic font-weight-lighter"] {
-    text-align: center;
+nav button {
+    margin-left: 75px;
 }
-[class="btn btn-outline-success my-2 my-sm-0"] {
-    background-color: coral;
+
+.nav-link{
+    width: 30px;
 }
-.carousel-item {
+.nav-link {
+    width: 100px;
+}
+#container-obj h4 {
+
+    margin-top: 100px; 
+    }
+
+.flexContainer{
+        flex-direction: column;
+        padding-bottom: 5px;
+       }
+#cargo1 {
+    max-width: 230px;
+}
+
+#experiencia .card {
+    box-shadow: 5px 5px 5px 5px rgb(146, 145, 145);
     height: auto;
-} 
-.container-1 {
-    text-decoration-color: red;
-    padding: 45px;
-    margin: 35px;
-    align-items: center;
 }
-#btn-1, #proyectos {
-    width: 200px;
+
+#UC {
+    display: flex; 
+    flex-direction: column;
     height: auto;
-    word-wrap: break-word;
+    flex-wrap: nowrap;
 }
-/*#btn11 {
-    padding-bottom: 2.5px;
-    margin-left: 20px;
-}*/ 
+.d-flex{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap;
 
-#btns, button {
-    align-items: center;
+}
+#ext {
+    display: flex; 
+    flex-direction: column;
+    height: auto;
+    flex-wrap: nowrap;
 }
 
-.card-img-top {
+
+#brasil {
+    display: flex; 
+    flex-direction: column;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#skills #SSkills, #HSkills {
     width: auto;
-    height: 200px;
-}
-
-.card-title {
-    text-align: center;
-}
-
-.card-text {
-        padding: 3px;
-
-}
-
-[class="blockquote text-center"] {
-    padding: 45px;
-    margin: 35px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 footer {
-    padding: 25px;
-    height: 22px;
-} 
-
-/* .container, .row, .col {
-    border: 0.5px solid black;
-
-}*/ 
-
-[class="font-weight-bold"] {
-    padding: 35px;
-}
-h4 {
-    padding: 5px;
-    padding-bottom: 10px;
-} 
-img.comparacion {
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
+    max-height: 30px;
 }
 
-.col {
-    height: 500px;
-    background: black;
-}
-[href="#Top"] {
-    color: white;
-    background: red;
-    border-radius: 30px;
-    padding: 5px;
-    margin: 5px;
-    position: fixed;
-    bottom:12px;
-    right: 12px;
-    scroll-behavior: smooth;
-    transition: all 0.8s ease-in-out;
-}
-[href="#Top"]:hover {
-    background: white;
-    border-color: red;
-    color: red;
-    scroll-behavior: smooth;
+#af {
+    display: block;
+    font-size: 20px;
 }
 
 
-form {
-    margin-left: 30px;
-    max-width: auto;
-    align-items: flex-start;
+
+
+
+
+
+
+
+
+
 }
-[id="muestra"] {
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-left:100px;
-    height: auto;
-    width: auto;
-    align-self : center;
-}
-/*@media screen and (min-width:450px)
-{
-    [id="muestra"] {
-        
-}
-}*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

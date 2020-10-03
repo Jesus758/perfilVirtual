@@ -8,25 +8,25 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-<!-- <header class="fixed-top">
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header class="fixed-top">
+   <nav class="d-block d-sm-block d-md-none navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">ESPECIALISTA ESG  |<br> HES COMPLIANCE | </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"> </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" href="#">Sobre mi<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Experiencia</a>
-        <a class="nav-link" href="#">Preparacion</a>
-        <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a id="link-1" class="nav-link active" href="#container-3">Sobre-mi<span class="sr-only"></span></a>
+        <a id="link-2" class="nav-link" href="#">Experiencia</a>
+        <a id="link-3" class="nav-link" href="#">Preparacion</a>
+        <a id="link-4" class="nav-link" href="#" tabindex="-1" aria-disabled="false">Habilidades</a>
       </div>
     </div>
   </nav>
- </header> -->
+ </header>
+
 <main>
-<div id="container-1">
+<!--<div id="container-1">
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div id="img1" class="carousel-item active">
@@ -45,15 +45,19 @@
   </div>
 </div>
 <!--Aqui finaliza el carrusel -->
-<div id="container-obj" class="text-wrap d-none" d-lg-block d-xl-block>
+<div id="container-obj" class="text-wrap d-block d-sm-block d-md-none">
   <h4 class="font-italic font-weight-lighter"><i>"Tengo como meta profesional contribuir al crecimiento, desarrollo y consolidación de emprendimientos, a través de estrategias de coaching, mentoring y auditorias de los modelos de Sustentabilidad Empresarial, Ambientes de Trabajo Seguro y Ambientes Conservados"</i></h4>
 </div>
 <!-- Un poco sobre mi// falta ppor completar esta parte de mi CV-->
 <!-- Aqui termina mi meta profesinal -->
+<div id="Bloco-MQ" class=".d-none .d-lg-block .d-xl-none">
 
-<div id="container-2" class="sticky-top">
+</div>
+
+
+<div id="container-2" class="col-12 d-none d-lg-block d-xl-block" style="">
   <div class="row">
-    <div Id="presentacion" class="col-3 sticky-top" style="max-height: 100vh;"> 
+    <div Id="presentacion" class="col-lg-3 " style="height:640px; position: relative;top: 0;"> 
       <div class="card" style="width: 18rem;">
         <img id="img2" src="./assets/img/photo2.jpg" class="card-img-top" alt="Jesus Arias">
         <div class="card-body">
@@ -64,22 +68,22 @@
               <div id="btns">
               <a id="btn101" href="#"><button id="btn-1" type="button" class="btn btn-success">Sobre mi</button></a><br><br>
               <a id="btn102" href="#"><button id="proyectos" type="button" class="btn btn-success">Mis Proyectos</button></a><br><br>
-              <a id="btn103" href=""><button id="btn-1" type="button" class="btn btn-success">Mi Experiencia</button></a><br><br>
-              <a id="btn104" href=""><button id="btn-1" type="button" class="btn btn-success">Formación Académica</button></a><br><br>
-              <a id="btn105" href=""><button id="btn-1" type="button" class="btn btn-success">Cursos aqui en Brasil</button></a><br><br>
-              <a id="btn106" href=""><button id="btn-1" type="button" class="btn btn-success">Voluntariado</button></a><br><br>
-              <a id="btn107" href=""><button id="btn-1" type="button" class="btn btn-success">Marketing</button></a><br><br>
+              <a id="btn103" href="#"><button id="btn-1" type="button" class="btn btn-success">Mi Experiencia</button></a><br><br>
+              <a id="btn104" href="#"><button id="btn-1" type="button" class="btn btn-success">Formación Académica</button></a><br><br>
+              <a id="btn105" href="#"><button id="btn-1" type="button" class="btn btn-success">Skills</button></a><br><br>
+              <a id="btn106" href="#"><button id="btn-1" type="button" class="btn btn-success">Voluntariado</button></a><br><br>
+              <a id="btn107" href="#"><button id="btn-1" type="button" class="btn btn-success">Marketing</button></a><br><br>
               </div>
               </p>
           </p>
         </div>
       </div>
     </div>
-    <div id="parallenar" class="col-9 d-flex m-20" style="flex-direction: row; flex-wrap: wrap;"> </div>
+    <div id="parallenar" class="col-lg-9 d-flex m-10" style="flex-direction: row; flex-wrap: wrap;"> </div>
 </div>
 </div>
 <!-- Bloque para intercambio. botones y espacio en Blanco!-->
-<div id="container-3" class="d-none" style="display: block; width: 100%; height: auto;">
+<div id="container-3" class="col-sm d-none" style="display: block; width: 100%; height: auto;">
     <p>
       Ingeniero Químico, egresado en el año 2006.
       Tuve experiencia como pasante en el área de Calidad y Producción durante mi período de graduación. 
@@ -106,7 +110,7 @@
 <!-- Aqui termina el tema de mi descripcion -->
 <div id="containerproyectos" class="d-none">
   <div class="card-deck">
-    <div class="card">
+    <div id="card11" class="card">
       <img src="./assets/img/1.jpg" class="card-img-top" alt="Gestion de Indice GRI..">
       <div class="card-body">
         <h5 class="card-title">Cálculo de Índice de Sustentabilidad y otros indicadores de gestión ambiental
@@ -120,7 +124,7 @@
         <small class="text-muted text-center">GESTION DE SUSTENTABILIDAD</small>
       </div>
     </div>
-    <div class="card">
+    <div id="card12" class="card">
       <img src="./assets/img/6.jpg" class="card-img-top" alt="Registro de Emisiones">
       <div class="card-body">
         <h5 class="card-title">Caracterización de fuentes e Inventario de emisiones atmosféricas
@@ -134,7 +138,7 @@
         <small class="text-muted text-center">INVENTARIO DE EMISIONES</small>
       </div>
     </div>
-    <div class="card">
+    <div id="card13"  class="card">
       <img src="./assets/img/7.jpg" class="card-img-top" alt="Combate de Derrames y Emergencias">
       <div class="card-body">
         <h5 class="card-title">Implementación de Planes de Contingencia por Derrames de Hidrocarburos
@@ -153,90 +157,83 @@
   <br>
 <!-- segundo lote de cartas-->
   <div class="card-deck">
-    <div class="card">
-      <img src="./assets/img/1.jpg" class="card-img-top" alt="Gestion de Indice GRI..">
+    <div id="card21" class="card">
+      <img src="./assets/img/3.jpg" class="card-img-top" alt="Desechos de Efluentes..">
       <div class="card-body">
-        <h5 class="card-title">Cálculo de Índice de Sustentabilidad y otros indicadores de gestión ambiental
-        </h5>
+        <h5 class="card-title">Manejo de Desechos Peligrosos Petroleros</h5>
         <p class="card-text"><i>Impacto:</i>
-          Entrega de Dashboard de las condiciones de la Refinería El Palito, con frecuencia de entrega trimestral.
-          Herramienta para las organizaciones del complejo refinador para la toma de decisiones en materia operativa con impacto ambiental
+          Retiro de 45.000 Toneladas de Lodos Petrolizados del área, Coordinación del transporte y control de documentos para el traslado hacia los lugares de Tratamiento y Disposición final del Material Contaminado, así como beneficio adicional, Mejora del desempeño ambiental de la Unidad de Efluentes
           </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted text-center">GESTION DE SUSTENTABILIDAD</small>
+        <small class="text-muted text-center">GESTION DE DESECHOS</small>
       </div>
     </div>
-    <div class="card">
-      <img src="./assets/img/6.jpg" class="card-img-top" alt="Registro de Emisiones">
+    <div id="card22" class="card">
+      <img src="./assets/img/5.jpg" class="card-img-top" alt="Registro de Emisiones">
       <div class="card-body">
-        <h5 class="card-title">Caracterización de fuentes e Inventario de emisiones atmosféricas
-        </h5>
+        <h5 class="card-title">Gestión Ambiental en Proyecto de Remoción de Asbesto</h5>
         <p class="card-text"><i>Impacto:</i> 
-          Registro Nacional de 13 fuentes de emisiones de gases de efectos invernaderos.
-          Estimación de base cero de tasa de emisiones de Refinería el Palito, bajo nuevos esquemas
-          </p>
+          Creación de protocolo de Manejo de Asbesto, Implantación de Plan de Monitoreo de Fibras de Asbesto 
+          Retiro de más de 10.000 m2 de asbesto en condiciones comprometidas y encapsulados por empresas autorizadas
+        </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted text-center">INVENTARIO DE EMISIONES</small>
+        <small class="text-muted text-center">GESTION DE DESECHOS Y CONTROL DE RIESGOS</small>
       </div>
     </div>
-    <div class="card">
-      <img src="./assets/img/7.jpg" class="card-img-top" alt="Combate de Derrames y Emergencias">
+    <div id="card23" class="card">
+      <img src="./assets/img/4.jpg" class="card-img-top" alt="Combate de Derrames y Emergencias">
       <div class="card-body">
-        <h5 class="card-title">Implementación de Planes de Contingencia por Derrames de Hidrocarburos
-        </h5>
-        <p class="card-text">Impacto: 
-          Coordinación de Despliegue de barreras con tiempo de respuesta de 45 minutos.
-          Implementación de Plan de Monitoreo Supervisado con duración mínima de 3 meses
-          Saneamiento de 3000 m2 de costa en 5 eventos relevantes
+        <h5 class="card-title">Recuperación de Áreas Contaminadas con Hidrocarburos</h5>
+        <p class="card-text"><i>Impacto</i> 
+          Retiro de 20.000 m3 de Toneladas de Lodos Petrolizados, Disposición final por valorización y biorremediación
+          Saneamiento de las áreas impactadas, Aplicación de Plan de Monitoreo Ambiental
           </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted text-justify">ATENCION A EMERGENCIAS</small>
+        <small class="text-muted text-justify">GESTION DE ÁREAS CONTAMINADAS</small>
       </div>
     </div>
   </div>
   <br>
 <!-- tercer lote de cartas -->
   <div class="card-deck">
-    <div class="card">
-      <img src="./assets/img/1.jpg" class="card-img-top" alt="Gestion de Indice GRI..">
+    <div id="card31" class="card">
+      <img src="./assets/img/9.jpg" class="card-img-top" alt="Gestion de Indice GRI..">
       <div class="card-body">
-        <h5 class="card-title">Cálculo de Índice de Sustentabilidad y otros indicadores de gestión ambiental
-        </h5>
+        <h5 class="card-title">Plan de Valoracion de Niveles de Ruido</h5>
         <p class="card-text"><i>Impacto:</i>
-          Entrega de Dashboard de las condiciones de la Refinería El Palito, con frecuencia de entrega trimestral.
-          Herramienta para las organizaciones del complejo refinador para la toma de decisiones en materia operativa con impacto ambiental
-          </p>
+          Actualización del mapa de riesgo de ruído y características de exposición a ruidos em la Planta Eléctrica
+          Actualización de régimen de alternabilidad de los trabajadores expuestos al ruído, y mejora em la adquisición de nuevos Equipos de Protección Personal
+         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted text-center">GESTION DE SUSTENTABILIDAD</small>
+        <small class="text-muted text-center">GESTION DE RIESGOS</small>
       </div>
     </div>
-    <div class="card">
+    <div id="card32" class="card">
       <img src="./assets/img/6.jpg" class="card-img-top" alt="Registro de Emisiones">
       <div class="card-body">
-        <h5 class="card-title">Caracterización de fuentes e Inventario de emisiones atmosféricas
+        <h5 class="card-title">Valoración de Niveles de Riesgos (químicos y físicos)
         </h5>
         <p class="card-text"><i>Impacto:</i> 
-          Registro Nacional de 13 fuentes de emisiones de gases de efectos invernaderos.
-          Estimación de base cero de tasa de emisiones de Refinería el Palito, bajo nuevos esquemas
+          Determinación de los puestos de trabajo con mayor nível de exposición y riesgo
+          Levantamiento de esquema de rotación y cambios de ubicación de las facilidades temporales para descanso y trabajo
+          Generación de propuestas a ser incluídas en el proyecto de mejora de la Unidad de Tratamiento de Efluentes
           </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted text-center">INVENTARIO DE EMISIONES</small>
+        <small class="text-muted text-center">GESTION DE RIESGOS QUIMICOS</small>
       </div>
     </div>
-    <div class="card">
+    <div id="card33" class="card">
       <img src="./assets/img/7.jpg" class="card-img-top" alt="Combate de Derrames y Emergencias">
       <div class="card-body">
-        <h5 class="card-title">Implementación de Planes de Contingencia por Derrames de Hidrocarburos
-        </h5>
-        <p class="card-text">Impacto: 
-          Coordinación de Despliegue de barreras con tiempo de respuesta de 45 minutos.
-          Implementación de Plan de Monitoreo Supervisado con duración mínima de 3 meses
-          Saneamiento de 3000 m2 de costa en 5 eventos relevantes
+        <h5 class="card-title">Control de la Calidad del Agua Potable</h5>
+        <p class="card-text"><i>Impacto:</i> 
+          Ejecución de plan de monitoreo para aseguramiento de la calidad de agua potable 
+          para instalaciones com fuente propia y de suministro por terceiros. 
           </p>
       </div>
       <div class="card-footer">
@@ -250,9 +247,9 @@
 
 </div>
 <!-- aqui termina la descripcion de mis proyectos -->
-<div id="experiencia" class="d-none">
+<div id="experiencia" class="col-sm d-none" style="padding: 20px;">
   <!--Experiencia Industrial-->
-  <div class="card mb-3" style="max-width: 540px;">
+  <div class="card mb-3" style="max-width: auto;">
     <div class="row no-gutters">
       <div class="col-md-4">
        <img src="./assets/img/141.jpg" class="card-img" alt="...">
@@ -262,9 +259,9 @@
           <h5 class="card-title">EXPERIENCIA INDUSTRIAL</h5>
           <p class="card-text">
             <ul class="text-break">
-              <li class="text-justify">RST Global Solutions. Brasil.<br> Período: 2019 - Actual<br><b>Entrenador QSHE/Certificador</b><br><a href="xxx">Ver actividades</a></li>
-              <li class="text-justify">PDVSA Refinería El Palito.<br> Período: 2012 - 2018<br><b>Ingeniero Ambiental</b><br><a href="xxx">Ver actividades</a></li>
-              <li class="text-justify">PDVSA Refinería El Palito.<br> Período: 2007 -2012<br><b>Especialista en Higiene Ocupacional</b><br><a href="xxx">Ver actividades</a></li>
+              <li class="text-justify">RST Global Solutions. Brasil. Período: 2019 - 2020 |<br> <b>Entrenador QSHE/Certificador</b> | <a href="xxx">Ver actividades</a></li>
+              <li class="text-justify">PDVSA Refinería El Palito | Período: 2012 - 2018 | <b>Ingeniero Ambiental</b> |<br><a href="xxx">Ver actividades</a></li>
+              <li class="text-justify">PDVSA Refinería El Palito | Período: 2007 -2012 | <br><b>Especialista en Higiene Ocupacional</b> | <a href="xxx">Ver actividades</a></li>
               </p>
             </ul>         
           </p>
@@ -274,7 +271,7 @@
     </div>
   </div>
 <!-- Experiencia Comercial-->
-  <div class="card mb-3" style="max-width: 540px;">
+  <div class="card mb-3" style="max-width: auto;">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="./assets/img/131.jpg" class="card-img" alt="...">
@@ -284,9 +281,9 @@
           <h5 class="card-title">EXPERIENCIA COMERCIAL</h5>
           <p class="card-text">
             <ul class="text-break">
-              <li class="text-justify">Analista de Ventas. Atento. <br>Período: 2018 -2019<br><a href="xxx">Ver Referencia</a></li>
-              <li class="text-justify">Freelancer. Servicios de Asesoría de Marketing y Negocios. Autonomo. <br>Período: 2019-2020<br><a href="xxx">Ver Referencias</a></li>
-              <li class="text-justify">Administrador Comercial. Negocio Propio. Venezuela. <br>Período: 2017 - 2018<br><a href="xxx">Ver Referencias</a></li>
+              <li class="text-justify">Analista de Ventas. Atento | Período: 2018 -2019 |<a href="xxx"> Ver Referencia</a></li>
+              <li class="text-justify">Freelancer. Servicios de Asesoría de Marketing y Negocios. Autonomo. <br>Período: 2019-2020 | <a href="xxx">Ver Referencias</a></li>
+              <li class="text-justify">Administrador Comercial. Negocio Propio. Venezuela. | Período: 2017 - 2018 | <a href="xxx">Ver Referencias</a></li>
             </ul>
           </p>
           <p class="card-text"><small class="text-muted"></small></p>
@@ -295,7 +292,7 @@
     </div>
   </div>
   <!-- Experiencia en Investigacion-->
-  <div class="card mb-3" style="max-width: 540px;">
+  <div class="card mb-3" style="max-width: auto;">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="./assets/img/121.jpg" class="card-img" alt="...">
@@ -305,9 +302,9 @@
           <h5 class="card-title">EXPERIENCIA EN INVESTIGACION</h5>
           <p class="card-text">
             <ul class="text-break">
-              <li class="text-justify">Tratamiento de Lodos contaminados con Plomo. Universidad de Carabobo. 2016<br><a href="xxx">Ver Trabajo</a></li>
-              <li class="text-justify">Evaluación de Exposición Ocupacional a Agentes Químicos. 2011<br><a href="xxx">Ver trabajo</a></li>
-              <li class="text-justify">Evaluación de Mejor Condición de Extracción de Aceites de Semillas. 2006<br><a href="xxx">Ver trabajo</a></li>
+              <li style="padding-bottom: 5px;" class="text-justify">Tratamiento de Lodos contaminados con Plomo. Universidad de Carabobo. <br>2016 | <a href="xxx">Ver Trabajo</a></li>
+              <li class="text-justify">Evaluación de Exposición Ocupacional a Agentes Químicos. <br>2011 | <a href="xxx">Ver trabajo</a></li>
+              <li class="text-justify">Evaluación de Mejor Condición de Extracción de Aceites de Semillas. <br> 2006 |<a href="xxx">Ver trabajo</a></li>
             </ul>
           </p>
           <p class="card-text"><small class="text-muted"></small></p>
@@ -317,13 +314,11 @@
   </div>
 </div>
 <!-- aqui termina la descripcion de mi experiencia -->
-<div id="skills" class="d-none">
-  
+<div id="skills" class="col-sm d-none">
   <h3 class="font-weight-bold">SKILLS</h3>
-
   <div class="flexContainer3">
     <div class="row">
-     <div class="col-sm" style="border: 1px solid black; border-radius: 15px; margin: 10px;">
+     <div id="SSkills" class="col-sm" style="border: 1px solid black; border-radius: 15px; margin: 10px;">
         <h4 class="text-left">Soft Skills</h4>
         <ul>
           <p class="text-left">Adaptabilidad<br>Asertividad<br>Resolución de Problemas<br>Gestión de Reuniones Efectivas<br></p>
@@ -331,7 +326,7 @@
           <p class="text-left">Capacidad de búsqueda<br>resiliencia<br>optimización de recursos<br>Gestión de recursos. Humano, Logístico, Financiero.<br></p>
           </ul>
       </div>
-      <div class="col-sm" style="border: 1px solid black; border-radius: 15px; margin: 10px;">
+      <div id="HSkills" class="col-sm" style="border: 1px solid black; border-radius: 15px; margin: 10px;">
       <h4 class="text-left">Hard Skills</h4>
         <p class="text-left">Aplicación de Análisis de Riesgos - HAZOP y ADR <br>
           Medición de Ruido/Estrés térmico/ Exposición a productos químicos<br>
@@ -347,35 +342,35 @@
 
 </div>
 <!-- aqui termina la descripcion de mis Skills -->
-<div class="container4 d-none">
-
+<div id="estudios" class="col-lg d-none">
   <div id="universidad">
     <h4>Estudios Universitarios</h4>
     <div id="UC" >
-  <img src="./assets/img/UC.jpg" alt="Logo de la UC">
-  <img src="./assets/img/UBV.jpg" alt="Logo de la UC">
-  <div class="d-flex">
+    <img src="./assets/img/UC.jpg" alt="Logo de la UC">
+    <img src="./assets/img/UBV.jpg" alt="Logo de la UC">
+    </div>
+    <div class="d-flex">
       <p class="text-center"><b>MASTER<br>INGENIERIA AMBIENTAL</b><br><a href="http://servicio.bc.uc.edu.ve/ingenieria/revista/v17n2/postgrado.pdf" target="_blank">Universidad de Carabobo</a><br>Año de Graduación: 2016</p>
       <p class="text-center"><b>ESPECIALISTA<br>HIGIENE OCUPACIONAL</b><br><a href="http://ubv.edu.ve/index.php/events/centro-de-estudios-en-ciencia-de-la-energia-cece/" target="_blank">Universidad Bolivariana </a><br>Año de Graduación: 2011</p>
       <p class="text-center"><b>INGENIERO<br> QUIMICO</b><br><a href="http://www.uc.edu.ve/facul_ingenieria.php" target="_blank">Universidad de Carabobo</a><br>Año de Graduación: 2006</p>
     </div>
-    </div>
+    
   </div>
   <div id="Extensiones">
     <h4>Estudios de Extensión</h4>  
-    <div id="ext">  
+  <div id="ext">  
       <img src="./assets/img/ism.jpg" alt="Extensiones">
       <img src="./assets/img/ULA-vzla.jpg" alt="Extensiones">
-      <div class="d-flex" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+    </div>
+    <div class="d-flex" style="">
       <p><b>Especialización en Analisis Ambiental por Imagenes Satelitáles</b><br><a href="http://www.ubtjr.edu.ve/anc/" target="_blank">UBT Jesus Rivero - Monagas</a><br>Año de Graduación: 2013</p>
       <p><b>Especialista en Gestión de Residuos</b><br><a href="https://www.ismedioambiente.com/programas-formativos/curso-especialista-en-gestion-de-residuos/" target="_blank">Instituto Superior del Medio Ambiente</a><br>Año de Graduación: 2015</p>
       <p><b>Gerencia Ambiental</b><br><a href="http://web.ula.ve/cidiat/" target="_blank">Universidad de los Andes</a><br>Año de Graduación: 2015</p>
       <p><b>Simuladores de Contaminación Ambiental del Aire. AERMOD-CALPUFF</b><br><a href="https://www.weblakes.com/training/index.html" target="_blank">Universidad de los Andes</a><br>Año de Graduación: 2015</p>
       <p><b>Auditor Interno. Sistemas Integrados de Gestión</b><br><a href="https://www.bureauveritasformacion.com/formacion-empresas/formacion-bonificada.aspx" target="_blank">Bureau Veritas, Venezuela</a><br>Año de Graduación: 2011</p>  
-      </div>
     </div>
-  </div>
-  <div id="cursosenbrasil">
+    </div>
+    <div id="cursosenbrasil">
     <h4>Estudios de Extensión en Brasil</h4> 
     <div id="brasil"> 
       <div style="display: flex; flex-direction: row; flex-wrap: wrap; ">
@@ -398,51 +393,102 @@
 <!--Aqui termina la seccion de mi formacion academica total -->
 <!-- Formación General -->
 <!-- Por los momentos (21.09.2020) se decidio no incluir un form, porque en el footer existen suficientes formas de contacto y verificacion de los datos en el tema-->
-<div id="marketing" class="d-none">Marketing
-
-  <div class="col bg-light">
-    <img src=" " alt=" logo de atento + Facebook">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, architecto quasi corrupti doloremque fugit nobis deleniti animi in voluptatem saepe, iste provident? Perspiciatis sit exercitationem, perferendis ipsa cumque neque necessitatibus?</p>
+<div id="marketero" class="col-12 d-none">
+<section>
+  <h3><b>MARKETING</b></h3>
+  </section>
+<div id="marketing" class="col-lg">
+    <div class="col-4 bg-light">
+    <img src="./assets/img/Atento.jpg " alt=" logo de atento + Facebook">
+    <h4><br>Marketing Expert<br></h4>
+    <p>Dominio Facebook Ads |<br> Estrategias de Marketing | <br>Interpretación de Métricas <br> Mas de 2000 clientes atendidos por medios remotos</p>
   </div>
-  <div class="col bg-light">
-    <img src=" " alt=" logo de atento + Facebook">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, architecto quasi corrupti doloremque fugit nobis deleniti animi in voluptatem saepe, iste provident? Perspiciatis sit exercitationem, perferendis ipsa cumque neque necessitatibus?</p>
+  <div class="col-4 bg-light">
+    <img src="./assets/img/Google.jpg " alt=" Google">
+    <h4>Certificado en Herramientas de Google</h4>
+    <p>Dominio y certificacion de herramienta de Google. | Google Ads | YouTube Ads | Google Analytic | SEO | </p>
   </div>
-  <div class="col bg-light">
-    <img src=" " alt=" logo de atento + Facebook">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, architecto quasi corrupti doloremque fugit nobis deleniti animi in voluptatem saepe, iste provident? Perspiciatis sit exercitationem, perferendis ipsa cumque neque necessitatibus?</p>
+  <div class="col-4 bg-light">
+    <img src="./assets/img/Freelancer.jpg " alt=" Freelancere">
+    <h4>Consultor de Marketing - Emprendedores</h4>
+    <p>Trabajo a través de plataformas de Freelancer, para los servicios de Marketing. Dominio de Gestión de Anuncios, Campañas de Leads y Email MArketing</p>
   </div>
 </div>
+</div>
 <!-- Marketing ojo. Es necesario completar el tema del Marketing-->
-<div id="voluntariado" class="d-none">
-  <div style="border: 1px solid black;">
-    <img src="" alt="imagen del voluntariado de espanhol">
-    <h6>Aulas de Español a Brasileros. En total 4 meses de trabajo
+<div id="voluntariado" class="col-9 d-none">
+  <div id="espanhol" style="border: 1px solid black;">
+    <div id="spn-img">
+    <img src="./assets/img/2222.jpg" alt="imagen del voluntariado de espanhol">
+    </div>
+    <div id="spn-text">
+    <h4>Aulas de Español a Brasileros. En total 4 meses de trabajo</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente suscipit dolorum aspernatur sint excepturi minima ipsam doloribus officiis ducimus aut, ipsa odio aliquam temporibus provident ea atque earum tempore quo.
+        Experiencia muy interesante. Dediqué a enseñar español básico a personas brasileras de cualquier edad. Me tocó enseñar el nivel A1 mas avanzado. Clases semanales, comaprti responsabildiades coon otras tres compañeras de trabajo que trabajamos cada 15 días, en clases semanales.
+        <a href="https://www.facebook.com/holaespanholparatodos">Aqui pueden ver mas información sobre el programa</a>
       </p>
-    </h6>
+    </div>
+      </div>
+  <div id="camaay" style="border: 1px solid black;">
+    <div id="cam-img">
+    <img src="./assets/img/ONU-camaay.jpg" alt=" participacion en proyecto de la ONU">
+    </div>
+    <div id="cam-text">
+    <h4> Apoyo a ONG CAMAAY,Voluntarios de la ONU</h4>
+    <p>En Junio 2020, en medio de la pandemia, quise aprovechar mi tiempo incorporandome a actividdes on-line y vi la oportunidad de participar en la elaboración de un Programa de Manejo de Desechos a ser implementados en la ciudad de Bamenda, Camerún. Trabajo por un total de 3 meses, aprendi mucho sobre las consideraciones economicas de este tipo de proyectos. <a href="https://www.camaay.org/">Aqui tienes mas información</a></p>
   </div>
-  <div style="border: 1px solid black;">
-    <img src="" alt=" participacion en proyecto de la ONU">
-    <h6> Participacion en elaboracion de programa de manejo de desechos
-    </h6>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum in consectetur nam eveniet quia magni ratione omnis sit optio quibusdam deleniti autem, facilis voluptates, quisquam, explicabo reprehenderit fugiat fugit voluptatum?</p>
+</div>
+  <div id="ilzb" style="border: 1px solid black;">
+    <div id="ilzb-img">
+    <img src="./assets/img/1111.jpg " alt="instituto Lixo Zero Brasil">
+    </div>
+    <div id="ilzb-text">
+    <h4>Emabajador del Instituo Lixo Zero Brasil</h4>
+    <p>Actualmente, estoy trabajando como voluntario del instituto Lixo Zero Brasil o Zero Waste,para la promoción de las actividades educativas y de eesfuerzos contra el control de la generación de desechos, un cambio en las actitudes de consumo de las personas en especial de los ciudadanos de Sao Paulo... que generamos mas de 1.5 kgg de basura diaria, en promedio. Actualmente trabajo con la Semana Lixo Zero, realizada al final de Octubre de cada año. <a href="www.ilzb.org.br">Aqui tienes mas información del ILZB</a></p>
   </div>
-  <div style="border: 1px solid black;">
-    <img src=" " alt="instituto Lixo Zero Brasil">
-    <h6>Descripcion de las actividades de coso lixo Zero</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error explicabo odio vel laboriosam recusandae totam omnis ullam quia quisquam temporibus sit nemo, repellat culpa saepe, necessitatibus mollitia velit quod rem?</p>
   </div>
 
 
 </div>
 <!-- Aqui termina el Voluntariado Es necesario completar la informacion del voluntariado-->
 </main>
+
+<!--Modal de Prueba -->
+<div id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BIENVENIDO A LA REVISION DE ESTE PERFIL</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Antes que nada, sea bienvenido a este perfil. El objetivo es realizar una parte practica sobre el desarrollo de programas de computación, y presentar el potencial del candidato que usted tiene al frente.
+          Sientase con total comodidad de prbar todos los botones que aparence, incluso los enlace de contacto.
+          Si usted encuentra una oportunidad de mejora para el autor de este trabajo, con mucho gusto puede hacermela llegar por correo, whatsapp o incluso en el GitHub.
+
+          <i><strong>Muchas Gracias!!!</strong></i>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Prueba</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Aqui termina el modal de prueba-->
+
+
+
+
+
 <footer id=" footer" class="bg-dark fixed-bottom" style="color:whitesmoke">
-  <a id="af" href="https://goo.gl/maps/5nie9yvfoMKC1LxE7" target="_blank">Dirección</a>| <a id="af" href="https://www.linkedin.com/in/jesusalejandroarias/">Perfil de Linkedin</a>|  <a id="af" href="https://github.com/Jesus758">Perfil de GitHub</a> |
-  <a id="af" href="mailto:jesusalejandro225@hotmail.com">Contacto por Correo</a>|
-  <a id="af" href="https://api.whatsapp.com/send?phone=5511972434963&fbclid=IwAR2smO3lVrIl71V4IS6mkf0RWdFasIS2Ini-gyvTt7nam2ziQqyL69g9Jfs">Via Whatsapp</a>|<a id="af" href="+5511972434963">Via Telefono</a>
+  <a id="af" href="https://api.whatsapp.com/send?phone=5511972434963&fbclid=IwAR2smO3lVrIl71V4IS6mkf0RWdFasIS2Ini-gyvTt7nam2ziQqyL69g9Jfs">Via Whatsapp</a>
+  | <a id="af" href="https://www.linkedin.com/in/jesusalejandroarias/">Perfil de Linkedin</a>|  <a id="af" href="https://github.com/Jesus758">Perfil de GitHub</a> |
+  <a id="af" href="mailto:jesusalejandro225@hotmail.com">Contacto por Correo</a>| <a id="af" href="https://goo.gl/maps/5nie9yvfoMKC1LxE7" target="_blank">Dirección</a>
+  |<a id="af" href="+5511972434963">Via Telefono</a>
 </footer>
 <!--<a href="#top" class="text-left">Ir al Inicio</a> -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
