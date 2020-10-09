@@ -21,6 +21,9 @@ var btnMarket = document.querySelector('#btn107');
 var inicio = document.querySelector('#img2');
 var prueba = document.querySelector('#mymodal');
 
+//Bienvenida a la pagina
+
+setTimeout( () => { $('#myModal').modal('show'); }, 500)
 
 //inicio de la pagina
 

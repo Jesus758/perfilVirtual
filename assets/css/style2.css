@@ -221,7 +221,7 @@ h4 {
 }
 
 #Extensiones .d-flex p {
-    width: 300px;
+    width: 250px;
     margin: 10px;
     text-align: center;
 }
@@ -252,7 +252,7 @@ h4 {
     display: flex; 
     flex-direction: row; 
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #brasil {
